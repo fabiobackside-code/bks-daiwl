@@ -5,6 +5,14 @@
 
 ---
 
+## 2026-11-08 · Testes, CI e release automático
+
+Entraram 23 testes com a biblioteca padrão, CI em Linux e Windows com Python 3.9 e 3.12,
+`scripts/package.py` e o workflow que anexa o `.skill` a cada tag. A versão foi para `1.0.1`, e o
+`/bks:maintainability` do kit passou a oferecer a skill como lente pessoal opcional.
+
+---
+
 ## 2026-11-08 · Projeto criado
 
 Perfil `component`. A skill `bks-daiwl` 1.0.0, que chegou como pacote `.skill` na pasta do kit,

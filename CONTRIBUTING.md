@@ -21,4 +21,4 @@ Issues e pull requests são bem-vindos, em inglês ou português.
 
 1. Fork, create a branch from `main`.
 2. Keep the change focused; update `CHANGELOG.md` under `[Unreleased]`.
-3. Run `python -m py_compile skills/bks-daiwl/scripts/daiwl.py`.
+3. Run `python -m unittest discover -s tests` (standard library only, no install needed).

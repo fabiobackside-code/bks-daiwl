@@ -5,9 +5,13 @@ Versioning: [SemVer](https://semver.org/) — MAJOR for breaking changes in the 
 MINOR for new commands/features, PATCH for fixes and wording. The score formula has its own version
 (`formula_version`); changing weights or factors bumps it, and reports refuse to show a delta across formulas.
 
-## [Unreleased]
+## [1.0.1] — 2026-11-08
 ### Changed
 - Repository layout: the skill lives in `skills/bks-daiwl/`; README, CHANGELOG and license at the root.
+
+### Added
+- Test suite (`tests/`): deterministic scoring, legacy schema normalization, CLI and release guard.
+- CI on Linux and Windows, Python 3.9 and 3.12; tagged releases attach the `.skill` package (`scripts/package.py`).
 
 ## [1.0.0] — 2026-11-07
 ### Added

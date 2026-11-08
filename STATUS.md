@@ -9,16 +9,15 @@
 
 ## Em uma frase
 
-A skill 1.0.0 virou projeto próprio com estrutura de repositório público (licença MIT, README
-bilíngue, CHANGELOG, CONTRIBUTING, SECURITY), versionada localmente, ainda sem remoto no GitHub e
-sem nenhum teste.
+A skill está na `1.0.1`, com estrutura de repositório público, 23 testes verdes, CI e release
+automático do `.skill` por tag. Falta só criar o repositório no GitHub e fazer o primeiro push.
 
 ---
 
 ## Fase atual
 
-**Empacotamento** — o conteúdo veio pronto do pacote `.skill`. A fase termina com o repositório
-publicado, o primeiro release `.skill` anexado e o `daiwl.py` coberto por teste.
+**Empacotamento** — a fase termina com o repositório publicado e o primeiro release `.skill`
+anexado pelo workflow.
 
 ---
 
@@ -39,9 +38,8 @@ git remote add origin https://github.com/fabiobackside-code/bks-daiwl.git
 git push -u origin main
 ```
 
-Depois, abrir sessão nesta pasta e escrever os testes do `daiwl.py`: `score` e `rescore`
-determinísticos sobre um `findings.json` de exemplo, normalização do esquema antigo em português e
-recusa de delta quando o `formula_version` muda.
+Depois, publicar o primeiro release: `git tag v1.0.1 && git push origin v1.0.1`. O workflow
+`release.yml` roda os testes, gera o `.skill` e anexa ao release.
 
 ---
 
@@ -56,8 +54,7 @@ recusa de delta quando o `formula_version` muda.
 
 ## Aberto
 
-- Nenhum teste. O `daiwl.py` (23 KB) só passa no `py_compile`
-- Sem `.github/` (templates de issue e PR, CI); entra junto com os testes
+- Os testes cobrem pontuação, normalização, `init` e `score`; `render`, `rescore`, `sources` e `inventory` seguem sem teste
 - O `fundamentals-catalog.md` cita fontes primárias; falta conferir uma a uma antes da divulgação
 - Sobreposição com o `/bks:maintainability` do kit: os critérios por stack de lá poderiam alimentar
   a extração de fundamentos daqui

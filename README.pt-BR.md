@@ -1,6 +1,6 @@
 # BKS-DAIWL — Don't Accept It Without Learning (Não aceite sem aprender)
 
-![versão](https://img.shields.io/badge/vers%C3%A3o-1.0.0-informational) ![idiomas](https://img.shields.io/badge/idiomas-en%20%7C%20pt--BR-blue)
+![versão](https://img.shields.io/badge/vers%C3%A3o-1.0.1-informational) ![idiomas](https://img.shields.io/badge/idiomas-en%20%7C%20pt--BR-blue)
 
 🇺🇸 [Read in English](README.md)
 

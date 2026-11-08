@@ -1,6 +1,6 @@
 # BKS-DAIWL — Don't Accept It Without Learning
 
-![version](https://img.shields.io/badge/version-1.0.0-informational) ![languages](https://img.shields.io/badge/lang-en%20%7C%20pt--BR-blue)
+![version](https://img.shields.io/badge/version-1.0.1-informational) ![languages](https://img.shields.io/badge/lang-en%20%7C%20pt--BR-blue)
 
 🇧🇷 [Leia em português](README.pt-BR.md)
 
