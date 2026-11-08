@@ -1,0 +1,13 @@
+bin/
+obj/
+node_modules/
+.env
+.env.*
+*.pdf
+*.docx
+Thumbs.db
+.DS_Store
+__pycache__/
+*.pyc
+.daiwl/
+dist/

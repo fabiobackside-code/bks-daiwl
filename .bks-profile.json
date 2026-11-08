@@ -1,0 +1,14 @@
+{
+  "profile": "component",
+  "category": "backside",
+  "axes": {
+    "output": "md",
+    "architecture_renderer": "mermaid",
+    "frontend_target": null,
+    "rigor": "producao"
+  },
+  "stack": {
+    "backend": "Agent skill (markdown) + Python 3.9+ standard library"
+  },
+  "architecture_template": "proprio"
+}
